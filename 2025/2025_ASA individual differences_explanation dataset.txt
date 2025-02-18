@@ -1,0 +1,20 @@
+Experiment:
+"Auditory scene analysis in music and speech: individual differences in listening abilities"
+Submitted to Scientific Reports on 18.02.2025
+by Robin Hake, Daniel Müllensiefen, and Kai Siedenburg
+Overview:
+This dataset originates from an experiment involving 92 hearing aid users. Participants completed a battery of tests in the acoustics lab. 
+
+Test Battery:
+Musical Scene Analysis (MSA): An adaptive listening task (based on Hake et al., 2024) that estimates participants’ ability to segregate musical streams. In each trial, a target excerpt is presented, followed by a silence and then a mixture. Participants indicate whether the target was part of the mixture. Scores are scaled approximately from –3 to +3, with zero representing the median performance of the calibration sample.
+Backwards Digit Span (BDS_average): A working memory test in which participants recall digit sequences in reverse order. Performance is measured as the proportion of correctly recalled digits.
+Oldenburger Satztest (SRT): An adaptive speech-in-noise test that estimates the 50% speech reception threshold (SRT in dB HL) by varying the speech level against a fixed noise level.
+Pure-Tone Audiometry (PTA): Hearing thresholds are measured across a range of frequencies, with the average across frequencies computed. Lower values indicate better hearing sensitivity.
+Musical Training (GMSI subscale): A self-report measure assessing musical expertise, with higher scores reflecting greater levels of musical training.
+Data Structure:
+The data file includes columns for each participant (identified by a unique p_id) and contains measurements for each condition. For example:
+
+Further Information:
+For additional details regarding the experimental design, stimulus material, and test procedures, please refer to:
+
+tba
